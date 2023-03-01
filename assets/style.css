@@ -1,0 +1,128 @@
+/* Theme Name: Play */
+h1 { font-family: Play; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 50px; }
+h2 { font-family: Play; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 40px; }
+h3 { font-family: Play; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 30px; }
+p { font-family: Play; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+blockquote { font-family: Play; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+pre { font-family: Play; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+
+body {
+    margin: 0 !important;
+}
+
+
+/* NAVIGATION */
+/* UTILITIES */
+.navbar * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Play; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 145, 255);
+    color: #ffffff;
+    margin: 0;
+}
+    
+.nav-links a {
+    color: #ffffff;
+}
+
+/* LOGO */
+
+.logo {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: rgb(0, 118, 209);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+/* CHECKBOX HACK */
+
+input[type=checkbox]{
+    display: none;
+} 
+
+/*HAMBURGER MENU*/
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+
+@media (max-width: 815px) {
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:rgb(0, 145, 255);
+        right: 0;
+        left: 1;
+        text-align: center;
+        padding: 16px 0;
+        border-radius: 8px;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color:rgb(0, 118, 209);
+        transition: 0.3s ease;
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+.contact {
+    background-color: rgb(65, 64, 64);
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+}
+
+.contact h1 {
+    font-style: bold;
+}

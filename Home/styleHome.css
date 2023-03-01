@@ -1,0 +1,43 @@
+.homeTitle {
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.presentation {
+    display: grid; 
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 0.5fr 2fr; 
+    gap: 15px 50px; 
+    grid-template-areas: 
+        "Logo-1 Logo-2 Logo-3"
+        "Who-am-I Why-this-formation My-future"
+        "Text-1 Text-2 Text-3"; 
+
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 10em;
+
+    min-width: 30em;
+}
+.Logo-1 { grid-area: Logo-1; }
+.Logo-2 { grid-area: Logo-2; }
+.Logo-3 { grid-area: Logo-3; }
+.Who-am-I { grid-area: Who-am-I; }
+.Why-this-formation { grid-area: Why-this-formation; }
+.My-future { grid-area: My-future; }
+.Text-1 { grid-area: Text-1; }
+.Text-2 { grid-area: Text-2; }
+.Text-3 { grid-area: Text-3; }
+
+.presentation img {
+    width: 5em;
+    height: auto;
+}
