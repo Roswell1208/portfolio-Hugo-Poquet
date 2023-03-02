@@ -1,0 +1,13 @@
+.CVTitle {
+    text-align: center !important;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.CVpdf iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 5em;
+}
