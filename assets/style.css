@@ -127,3 +127,10 @@ input[type=checkbox]{
 .contact h1 {
     font-style: bold;
 }
+
+.contact img {
+    display: inline;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}

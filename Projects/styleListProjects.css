@@ -1,0 +1,77 @@
+.projectsTitle {
+    text-align: center !important;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.card {
+    display: grid; 
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "image txt txt"; 
+
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-bottom: 5em;
+
+    min-width: 30em;
+}
+
+.cardFav {
+    display: grid; 
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 0.1fr; 
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "image txt star"; 
+
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-bottom: 5em;
+
+    min-width: 30em;
+}
+
+.text { 
+    grid-area: txt;
+}
+
+.text p {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.image { 
+    grid-area: image;
+}
+
+.image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.star {
+    grid-area: star;
+}
+
+.star span {
+    content: "\2605";
+    font-size: 30px;
+}
