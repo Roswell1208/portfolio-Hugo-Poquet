@@ -18,11 +18,11 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 5em;
 
-    min-width: 30em;
+    min-width: 40em;
 }
 
 .cardFav {
@@ -39,11 +39,11 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 5em;
 
-    min-width: 30em;
+    min-width: 40em;
 }
 
 .text { 
