@@ -2,10 +2,10 @@
 h1 { font-family: Play; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 50px; }
 h2 { font-family: Play; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 40px; }
 h3 { font-family: Play; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 30px; }
-p { font-family: Play; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+p { font-family: Play; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
 blockquote { font-family: Play; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
 pre { font-family: Play; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
-a { font-family: Play; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+a { font-family: Play; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
 
 
 body {
@@ -19,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Play; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 20px;
+    font-family: Play; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 20px;
     text-decoration: none;
     list-style: none;
 }
@@ -85,7 +85,7 @@ input[type=checkbox]{
 
 /* APPLYING MEDIA QUERIES */
 
-@media (max-width: 815px) {
+@media (max-width: 860px) {
     .menu { 
         display:none;
         position: absolute;
