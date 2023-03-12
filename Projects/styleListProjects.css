@@ -22,7 +22,7 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 
     min-width: 22em;
 }
@@ -42,9 +42,9 @@
         border-radius: 10px;
         border: 1px solid rgb(0, 0, 0, 0.1);
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-bottom: 5em;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 3em;
     
         min-width: 22em;
     }

@@ -4,6 +4,23 @@
     margin-bottom: 2em;
 }
 
+@media (max-width: 800px) {
+    .card {
+        text-align: center;
+        align-items: center;
+        background-color: rgb(255, 254, 254);
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-bottom: 10em;
+
+        min-width: 30em;
+    }
+}
+
 .card {
     text-align: center;
     align-items: center;
@@ -12,8 +29,8 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 10em;
 
     min-width: 30em;

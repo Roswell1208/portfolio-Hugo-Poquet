@@ -1,0 +1,55 @@
+.projectTitle {
+    text-align: center !important;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+@media (min-width: 1000px) {
+    .content img {
+        width: 750px !important;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .content p {
+        width: 750px !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    iframe {
+        width: 750px !important;
+        height: 1000px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+}
+
+.content img{
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+iframe {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 2em;
+}

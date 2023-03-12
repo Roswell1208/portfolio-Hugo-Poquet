@@ -5,6 +5,19 @@
 }
 
 
+.cards {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width: 800px) {
+    .cards {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+}
+
+
 .pix {
     display: grid; 
     text-align: center;
@@ -19,8 +32,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;
@@ -40,8 +51,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;
@@ -61,8 +70,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;
@@ -82,8 +89,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;
@@ -103,8 +108,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;
@@ -125,8 +128,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;
@@ -147,8 +148,6 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
     margin-bottom: 5em;
 
     min-width: 30em;

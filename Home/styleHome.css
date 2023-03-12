@@ -4,6 +4,34 @@
     margin-bottom: 10em;
 }
 
+
+@media (max-width: 800px) {
+    .presentation {
+        display: grid; 
+        text-align: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 0.5fr 0.5fr 2fr; 
+        gap: 15px 50px; 
+        grid-template-areas: 
+            "Logo-1 Logo-2 Logo-3"
+            "Who-am-I Why-this-formation My-future"
+            "Text-1 Text-2 Text-3"; 
+
+        background-color: rgb(255, 254, 254);
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-bottom: 10em;
+
+        min-width: 30em;
+    }
+}
+
+
 .presentation {
     display: grid; 
     text-align: center;
@@ -21,8 +49,8 @@
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 10em;
 
     min-width: 30em;
