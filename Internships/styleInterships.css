@@ -31,7 +31,7 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 
     min-width: 30em;
 }
@@ -39,4 +39,17 @@
 .firstYear img {
     width: 25em;
     height: auto;
+}
+
+.secondYear img {
+    width: 25em;
+    height: auto;
+}
+
+.stageAltameosPres iframe {
+    width: 75%;
+    height: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
