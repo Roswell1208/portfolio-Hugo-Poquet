@@ -31,7 +31,7 @@
     margin-right: 20%;
     margin-bottom: 5em;
 
-    min-width: 30em;
+    min-width: 325px;
 }
 
 .intro h2 {
@@ -53,12 +53,23 @@
 }
 
 .box {
+    transition: all ease 0.3s !important;
     width: 350px;
+    height: 450px;
     background-color: #fff;
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
+    min-width: 350px;
+}
+
+.box:hover {
+    height: 480px;
+
+    .box-text p {
+        -webkit-line-clamp: 6;
+    }
 }
 
 .box-img {
@@ -117,7 +128,7 @@
     transition: all ease 0.3s;
 }
 
-@media (max-width: 783px) {
+@media (max-width: 800px) {
     .box {
         margin: 20px 10px;
         width: 80%;
