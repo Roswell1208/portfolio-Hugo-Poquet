@@ -6,18 +6,19 @@
 
 @media (max-width: 800px) {
     .card {
-        text-align: center;
-        align-items: center;
-        background-color: rgb(255, 254, 254);
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid rgb(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
         margin-left: 5% !important;
         margin-right: 5% !important;
         margin-bottom: 10em;
 
-        min-width: 30em;
+        min-width: 300px !important;
+    }
+
+    .firstYear img {
+        width: 80% !important;
+    }
+
+    .secondYear img {
+        width: 80% !important;
     }
 }
 
@@ -52,4 +53,47 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2em;
+    background: transparent;
+    color: black;
+    border: 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+    padding: 20px 50px;
+    transition: all 0.3s;
+}
+
+button::after,
+button::before {
+    border: 2px solid black;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+
+button:hover::after {
+    transform: translate(-5px, -5px);
+}
+
+button:hover::before {
+    transform: translate(5px, 5px);
+}
+
+
+
+a {
+    text-decoration: none;
 }

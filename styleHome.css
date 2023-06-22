@@ -7,33 +7,30 @@
 
 @media (max-width: 800px) {
     .presentation {
-        display: grid; 
-        text-align: center;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 0.5fr 0.5fr 2fr; 
-        gap: 15px 50px; 
-        grid-template-areas: 
-            "Logo-1 Logo-2 Logo-3"
-            "Who-am-I Why-this-formation My-future"
-            "Text-1 Text-2 Text-3"; 
+        grid-template-columns: 1fr !important; 
+        grid-template-rows: 0.5fr 0.5fr 2fr 0.5fr 0.5fr 2fr 0.5fr 0.5fr 2fr !important; 
+        gap: 50px; 
+        grid-template-areas:
+            "Logo-1"
+            "Who-am-I"
+            "Text-1"
+            "Logo-2"
+            "Why-this-formation"
+            "Text-2"
+            "Logo-3"
+            "My-future"
+            "Text-3" !important; 
 
-        background-color: rgb(255, 254, 254);
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid rgb(0, 0, 0, 0.1);
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
         margin-left: 5% !important;
         margin-right: 5% !important;
-        margin-bottom: 10em;
 
-        min-width: 30em;
+        min-width: 300px !important;
     }
 
 
     .box {
-        margin: 20px 10px;
-        width: 80%;
+        margin: 20px 10px !important;
+        width: 80% !important;
     }
 }
 
@@ -173,4 +170,61 @@
 .box-text a:hover {
     color: #f33c3c;
     transition: all ease 0.3s;
+}
+
+.btn {
+    justify-content: center;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.btn .arrow {
+    background: #0f0f0f;
+    height: 0.1em;
+    width: 1.5em;
+    margin-right: 1em;
+    position: relative;
+    transition: all ease 0.3s;
+}
+
+.btn .arrow::before,
+.btn .arrow::after {
+    content: "";
+    position: absolute;
+    background: #0f0f0f;
+    height: 0.1em;
+    width: 0.6em;
+    right: 0;
+    top: 0;
+}
+
+.btn .arrow::before {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+
+.btn .arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+}
+
+.btn:hover .arrow {
+    width: 3em;
+}
+
+.btn:hover {
+    color: #f33c3c;
+    transition: all ease 0.3s;
+
+    .arrow,
+    .arrow::before,
+    .arrow::after {
+        background: #f33c3c;
+        transition: all ease 0.3s;
+        }
 }
