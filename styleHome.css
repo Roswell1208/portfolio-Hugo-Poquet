@@ -1,0 +1,230 @@
+.homeTitle {
+    text-align: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+
+@media (max-width: 800px) {
+    .presentation {
+        grid-template-columns: 1fr !important; 
+        grid-template-rows: 0.5fr 0.5fr 2fr 0.5fr 0.5fr 2fr 0.5fr 0.5fr 2fr !important; 
+        gap: 50px; 
+        grid-template-areas:
+            "Logo-1"
+            "Who-am-I"
+            "Text-1"
+            "Logo-2"
+            "Why-this-formation"
+            "Text-2"
+            "Logo-3"
+            "My-future"
+            "Text-3" !important; 
+
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+
+        min-width: 300px !important;
+    }
+
+
+    .box {
+        margin: 20px 10px !important;
+        width: 80% !important;
+    }
+}
+
+
+.presentation {
+    display: grid; 
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 0.5fr 2fr; 
+    gap: 15px 50px; 
+    grid-template-areas: 
+        "Logo-1 Logo-2 Logo-3"
+        "Who-am-I Why-this-formation My-future"
+        "Text-1 Text-2 Text-3"; 
+
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10em;
+
+    min-width: 30em;
+}
+.Logo-1 { grid-area: Logo-1; }
+.Logo-2 { grid-area: Logo-2; }
+.Logo-3 { grid-area: Logo-3; }
+.Who-am-I { grid-area: Who-am-I; }
+.Why-this-formation { grid-area: Why-this-formation; }
+.My-future { grid-area: My-future; }
+.Text-1 { grid-area: Text-1; }
+.Text-2 { grid-area: Text-2; }
+.Text-3 { grid-area: Text-3; }
+
+.presentation img {
+    width: 5em;
+    height: auto;
+}
+
+
+
+* {
+    text-decoration: none;
+}
+
+.lastProjects h3 {
+    text-align: center;
+}
+
+.lastVeilles h3 {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.box {
+    transition: all ease 0.3s !important;
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    min-width: 350px;
+}
+
+.box:hover {
+    height: 480px;
+
+    .box-text p {
+        -webkit-line-clamp: 6;
+    }
+}
+
+.box-img {
+    width: 100%;
+    height: auto;
+}
+
+.box-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.box-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-text span {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+}
+
+.box-text .box-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+
+.box-text .box-title:hover {
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+
+.box-text p {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.box-text a {
+    color: #0f0f0f;
+}
+
+.box-text a:hover {
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+
+.btn {
+    justify-content: center;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.btn .arrow {
+    background: #0f0f0f;
+    height: 0.1em;
+    width: 1.5em;
+    margin-right: 1em;
+    position: relative;
+    transition: all ease 0.3s;
+}
+
+.btn .arrow::before,
+.btn .arrow::after {
+    content: "";
+    position: absolute;
+    background: #0f0f0f;
+    height: 0.1em;
+    width: 0.6em;
+    right: 0;
+    top: 0;
+}
+
+.btn .arrow::before {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+
+.btn .arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+}
+
+.btn:hover .arrow {
+    width: 3em;
+}
+
+.btn:hover {
+    color: #f33c3c;
+    transition: all ease 0.3s;
+
+    .arrow,
+    .arrow::before,
+    .arrow::after {
+        background: #f33c3c;
+        transition: all ease 0.3s;
+        }
+}

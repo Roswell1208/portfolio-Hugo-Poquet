@@ -1,0 +1,25 @@
+.CVTitle {
+    text-align: center !important;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.CVpdf iframe {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 5em;
+}
+
+@media (min-width: 1000px) {
+    .CVpdf iframe {
+        width: 750px !important;
+        height: 1000px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5em;
+    }
+}
