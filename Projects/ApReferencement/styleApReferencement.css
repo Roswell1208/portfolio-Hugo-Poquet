@@ -2,6 +2,7 @@
     text-align: center !important;
     margin-top: 2em;
     margin-bottom: 5em;
+    color: white;
 }
 
 @media (min-width: 1000px) {
@@ -39,6 +40,7 @@
 }
 
 .content p {
+    color: white;
     width: 75%;
     margin-left: auto;
     margin-right: auto;

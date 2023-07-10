@@ -2,12 +2,13 @@
     text-align: center !important;
     margin-top: 2em;
     margin-bottom: 5em;
+    color: white;
 }
 
 .back a {
     margin-left: 15%;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .back a:hover {
@@ -18,6 +19,7 @@
 .content p,ul {
     margin-left: 25%;
     margin-right: 25%;
+    color: white;
 }
 .content img {
     width: auto;
@@ -28,7 +30,7 @@
 }
 
 .content a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .content a:hover {
@@ -38,4 +40,5 @@
 
 .content h3,h4 {
     text-align: center;
+    color: white;
 }

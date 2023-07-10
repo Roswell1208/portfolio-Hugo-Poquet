@@ -2,6 +2,7 @@
     text-align: center;
     margin-top: 10em;
     margin-bottom: 10em;
+    color: white;
 }
 
 
@@ -36,6 +37,7 @@
 
 
 .presentation {
+    color: white;
     display: grid; 
     text-align: center;
     align-items: center;
@@ -47,11 +49,14 @@
         "Who-am-I Why-this-formation My-future"
         "Text-1 Text-2 Text-3"; 
 
-    background-color: rgb(255, 254, 254);
+    
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10em;
@@ -81,10 +86,12 @@
 
 .lastProjects h3 {
     text-align: center;
+    color: white;
 }
 
 .lastVeilles h3 {
     text-align: center;
+    color: white;
 }
 
 
@@ -100,10 +107,12 @@
     transition: all ease 0.3s !important;
     width: 350px;
     height: 450px;
-    background-color: #fff;
     border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     margin: 20px;
     min-width: 350px;
 }
@@ -127,7 +136,7 @@
     object-fit: cover;
     object-position: center;
     border-radius: 10px 10px 0px 0px;
-    border: 1px solid rgb(0, 0, 0, 0.1);
+    border:1px solid rgba(255, 255, 255, 0.18);
 }
 
 .box-text {
@@ -137,14 +146,16 @@
 }
 
 .box-text span {
-    color: #9b9b9b;
+    color: #ffffff;
     font-size: 0.9rem;
+    margin-bottom: 5px;
 }
 
 .box-text .box-title {
+    text-align: left !important;
     font-size: 1.3rem;
     font-weight: 500;
-    color: #272727;
+    color: #ffffff;
 }
 
 .box-text .box-title:hover {
@@ -153,7 +164,7 @@
 }
 
 .box-text p {
-    color: #9b9b9b;
+    color: #ebebeb;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -164,7 +175,8 @@
 }
 
 .box-text a {
-    color: #0f0f0f;
+    text-align: right;
+    color: #ffffff;
 }
 
 .box-text a:hover {
@@ -175,7 +187,7 @@
 .btn {
     justify-content: center;
     text-decoration: none;
-    color: #0f0f0f;
+    color: white;
     font-size: 1.2em;
     display: flex;
     align-items: center;
@@ -184,7 +196,7 @@
 }
 
 .btn .arrow {
-    background: #0f0f0f;
+    background: #ffffff;
     height: 0.1em;
     width: 1.5em;
     margin-right: 1em;
@@ -196,7 +208,7 @@
 .btn .arrow::after {
     content: "";
     position: absolute;
-    background: #0f0f0f;
+    background: #ffffff;
     height: 0.1em;
     width: 0.6em;
     right: 0;

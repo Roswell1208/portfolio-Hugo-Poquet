@@ -2,6 +2,7 @@
     text-align: center !important;
     margin-top: 2em;
     margin-bottom: 2em;
+    color: white;
 }
 
 * {
@@ -21,10 +22,12 @@
     transition: all ease 0.3s !important;
     width: 350px;
     height: 400px;
-    background-color: #fff;
     border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(89, 87, 87, 0.592), rgba(82, 80, 80, 0.564));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     margin: 20px;
     min-width: 350px;
 }
@@ -48,7 +51,7 @@
     object-fit: cover;
     object-position: center;
     border-radius: 10px 10px 0px 0px;
-    border: 1px solid rgb(0, 0, 0, 0.1);
+    border:1px solid rgba(255, 255, 255, 0.18);
 }
 
 .box-text {
@@ -58,14 +61,15 @@
 }
 
 .box-text span {
-    color: #9b9b9b;
+    color: #c8c7c7;
     font-size: 0.9rem;
+    margin-bottom: 5px;
 }
 
 .box-text .box-title {
     font-size: 1.3rem;
     font-weight: 500;
-    color: #272727;
+    color: #ffffff;
 }
 
 .box-text .box-title:hover {
@@ -74,7 +78,7 @@
 }
 
 .box-text p {
-    color: #9b9b9b;
+    color: #c8c7c7;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -85,7 +89,7 @@
 }
 
 .box-text a {
-    color: #0f0f0f;
+    color: #ffffff;
 }
 
 .box-text a:hover {
