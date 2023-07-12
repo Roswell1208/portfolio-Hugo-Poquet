@@ -22,238 +22,243 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navbar">
-                <div class="logo">Hugo Poquet</div>
-                <ul class="nav-links">
-                    <input type="checkbox" id="checkbox_toggle" />
-                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-                    <div class="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="Projects/listProjects.html">Projects</a></li>
-                        <li><a href="Internships/internships.html">Interships</a></li>
-                        <li><a href="Certificates/certificates.html">Certificates</a></li>
-                        <li><a href="TechnologyMonitoring/techList.html">Technology monitoring</a></li>
-                        <li><a href="CV/CV.html">Curriculum Vitae</a></li>
-                        <li><a href="Contact/contact.html">Contact</a></li>
+        <div class="mainContainer">
+            <div class="background"></div>
+            <div class="mainContent">
+                <header>
+                    <nav class="navbar">
+                        <div class="logo">Hugo Poquet</div>
+                        <ul class="nav-links">
+                            <input type="checkbox" id="checkbox_toggle" />
+                            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        
+                            <div class="menu">
+                                <li><a href="">Home</a></li>
+                                <li><a href="Projects/listProjects.html">Projects</a></li>
+                                <li><a href="Internships/internships.html">Interships</a></li>
+                                <li><a href="Certificates/certificates.html">Certificates</a></li>
+                                <li><a href="TechnologyMonitoring/techList.html">Technology monitoring</a></li>
+                                <li><a href="CV/CV.html">Curriculum Vitae</a></li>
+                                <li><a href="Contact/contact.html">Contact</a></li>
+                            </div>
+                        </ul>
+                    </nav>
+                </header>
+        
+        
+                <div class="homeTitle">
+                    <h1>Welcome to my Portfolio</h1>
+        
+                    <div class="container">
+                        <h3><span class="auto-type"></span></h3>
                     </div>
-                </ul>
-            </nav>
-        </header>
-
-
-        <div class="homeTitle">
-            <h1>Welcome to my Portfolio</h1>
-
-            <div class="container">
-                <h3><span class="auto-type"></span></h3>
-            </div>
-    
-            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    
-            <script>
-                var typed = new Typed('.auto-type', {
-                    strings: ['I\'m Hugo Poquet, a french student in IT development C:',
-                    'I like to code and to learn new things',
-                    'Hope you\'ll enjoy my portfolio !'],
-                    typeSpeed: 50,
-                    backSpeed: 25,
-                    loop: true
-                });
-            </script>
-        </div>
-
-        <div class="presentation">
-            <div class="Logo-1"><img src="assets/img/profile.png"></div>
-            <div class="Who-am-I"><h3>Who am I ?</h3></div>
-            <div class="Text-1">
-                <p>My name is Hugo, I am in BTS SIO 2nd year with the aim of becoming a computer developer. 
-                    I did an internship last year at ArianeGroup. 
-                    During this internship, I was able to put my lessons into practice in the realization of a project. 
-                    This therefore comforted me in my professional project.</p>
-            </div>
-
-
-            <div class="Logo-2"><img src="assets/img/formation.png"></div>
-            <div class="Why-this-formation"><h3>Why this training ?</h3></div>
-            <div class="Text-2">
-                <p>I chose this course because I found the openings very interesting and completely related to my professional project. 
-                    In addition, the image that this training sends back to recruiters is very good.</p>
-            </div>
-
-
-            <div class="Logo-3"><img src="assets/img/rocket.png"></div>
-            <div class="My-future"><h3>My future</h3></div>
-            <div class="Text-3">
-                <p>As mentioned in my presentation, I would like to become a software and application developer. 
-                    This area has always fascinated me. 
-                    I intend to continue my studies with a master's degree in computer science or an engineering school.</p>
-            </div>
-        </div>
-
-
-        <div class="lastProjects">
-
-            <h3>Latest projects</h3>
-
-            <div class="container">
-
-                <!--Box 12-->
-                <div class="box">
-
-                    <!--Img-->
-                    <div class="box-img">
-                        <img src="assets/img/Projects/tktCerza/1493235373large_react_apps_A-01-360x240.webp">
-                    </div>
-
-                    <!--Date x Theme-->
-                    <div class="box-text">
-                        <span>On 2023-06-09 - AP</span>
-                        <a href="Projects/ApTktCerza/apTktCerza.html" class="box-title">AP TKT Cerza - React</a>
-                        <p>This AP was carried out in a group of three and had the objective of designing and developing a web application for the management of the park "Zoo de Cerza" (internal) for park employees.</p>
-                        <a href="Projects/ApTktCerza/apTktCerza.html">Read more</a>
-                    </div>
-                    
-                </div>
-
-
-                <!--Box 11-->
-                <div class="box">
-
-                    <!--Img-->
-                    <div class="box-img">
-                        <img src="assets/img/Projects/gsbGesAmm/hero-stock-1024x578-1-360x240.png">
-                    </div>
-
-                    <!--Date x Theme-->
-                    <div class="box-text">
-                        <span>On 2023-03-05 - AP</span>
-                        <a href="Projects/ApGsbGesAmm/gsbGesAmm.html" class="box-title">AP - GSB gesAMM</a>
-                        <p>This AP was made in a group of three in the context of a pharmaceutical laboratory named Galaxy Swiss Bourdin. In this project, I had to create an application in C# to allow management and monitoring of the marketing of a drug.
-                            We had to connect our C# application with SQL Server, in which the application data was stored, as well as stored procedures.</p>
-                        <a href="Projects/ApGsbGesAmm/gsbGesAmm.html">Read more</a>
-                    </div>
-                    
-                </div>
-
-
-                <!--Box 10-->
-                <div class="box">
-
-                    <!--Img-->
-                    <div class="box-img">
-                        <img src="assets/img/Projects/referencement/e-commerce-seo-750x501-1.jpg">
-                    </div>
-
-                    <!--Date x Theme-->
-                    <div class="box-text">
-                        <span>On 2023-01-05 - AP</span>
-                        <a href="Projects/ApReferencement/apReferencement.html" class="box-title">AP - SEO</a>
-                        <p>This PA was done individually, and was intended to write SEO documentation and practice by referencing my previous portfolio.</p>
-                        <a href="Projects/ApReferencement/apReferencement.html">Read more</a>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <a href="Projects/listProjects.html" class="btn">
-                <div class="arrow"></div>
-                See all projects
-            </a>
-        </div>
-
-
-
-        <div class="lastVeilles">
-
-            <h3>Latest technology monitoring</h3>
-
-            <div class="container">
-
-                <!--Box 7-->
-                <div class="box">
-
-                    <!--Img-->
-                    <div class="box-img">
-                        <img src="assets/img/Veilles/Veille7/xiaomivsapple1.jpg">
-                    </div>
-
-                    <!--Date x Theme-->
-                    <div class="box-text">
-                        <span>On 2023-06-08 - Virtual Reality</span>
-                        <a href="TechnologyMonitoring/veille7/veille7.html" class="box-title">Augmented Reality - Xiaomi VS Apple</a>
-                        <p>Today we're going to explore the latest advancements in Virtual Reality (VR) and Augmented Reality (AR). We will particularly focus on innovations from Xiaomi and Apple. Get ready to discover the new possibilities offered by these two visionary companies.</p>
-                        <a href="TechnologyMonitoring/veille7/veille7.html">Read more</a>
-                    </div>
-                    
-                </div>
-
-
-                <!--Box 6-->
-                <div class="box">
-
-                    <!--Img-->
-                    <div class="box-img">
-                        <img src="assets/img/Veilles/Veille6/angularLogo.png">
-                    </div>
-
-                    <!--Date x Theme-->
-                    <div class="box-text">
-                        <span>On 2023-03-09 - Programmation</span>
-                        <a href="TechnologyMonitoring/veille6/veille6.html" class="box-title">Framework Angular</a>
-                        <p>Angular is an open source framework based on TypeScript (a strict syntactic superset of JavaScript transcompiled to JavaScript). This framework facilitates the creation of web applications, especially single-page web applications. These are accessible via a single web page, which makes the user experience smoother and avoids the loading of new pages for each action. The framework is based on the MVC-type architecture, thus making it possible to separate the data, the visual aspect and the actions for a better management of responsibilities. This architecture is well known for its high maintainability and its ability to improve collaborative work.</p>
-                        <a href="TechnologyMonitoring/veille6/veille6.html">Read more</a>
-                    </div>
-                    
-                </div>
-
-
-                <!--Box 5-->
-                <div class="box">
-
-                    <!--Img-->
-                    <div class="box-img">
-                        <img src="assets/img/Veilles/Veille5/MouseVRheadset1.png">
-                    </div>
-
-                    <!--Date x Theme-->
-                    <div class="box-text">
-                        <span>On 2022-11-20 - Virtual Reality</span>
-                        <a href="TechnologyMonitoring/veille5/veille5.html" class="box-title">MouseVRheadset</a>
-                        <p>Developers from Schaffer-Nishimura Lab have created a miniature VR system, the MouseVRheadset. This small virtual reality headset was designed to study the behavior of mice in a variety of virtual environments. Indeed, the subjects are immersed in interactive and non-interactive visual scenes.</p>
-                        <a href="TechnologyMonitoring/veille5/veille5.html">Read more</a>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <a href="TechnologyMonitoring/techList.html" class="btn">
-                <div class="arrow"></div>
-                See all technology monitoring
-            </a>
             
-        </div>
-
-          
-        <footer>
-            <div class="contact">
-                <h1>Contact me :</h1>
-
-                <h3>My work place</h3>
-                <p>54 Rue de Marzelles, 27200 Vernon, France</p>
-                <br>
-
-                <h3>My contact details</h3>
-                <p>hugo.poquet@icloud.com</p>
-                <p>(+33) 7 85 94 35 58</p>
-                <br>
-
-                <h3>You can also find me on</h3>
-                <a href="https://github.com/Roswell1208"><img src="assets/img/GitHub-Logo.png"></a>
-                <img src="assets/img/discord-logo-1-1-2048x2048.png" title="Roswell_1208#1668">
-                <a href="https://www.linkedin.com/in/hugo-poquet-30a8a4259/"><img src="assets/img/Logo Linkedin.png"></a>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            
+                    <script>
+                        var typed = new Typed('.auto-type', {
+                            strings: ['I\'m Hugo Poquet, a french student in IT development C:',
+                            'I like to code and to learn new things',
+                            'Hope you\'ll enjoy my portfolio !'],
+                            typeSpeed: 50,
+                            backSpeed: 25,
+                            loop: true
+                        });
+                    </script>
+                </div>
+        
+                <div class="presentation">
+                    <div class="Logo-1"><img src="assets/img/profile.png"></div>
+                    <div class="Who-am-I"><h3>Who am I ?</h3></div>
+                    <div class="Text-1">
+                        <p>My name is Hugo, I am in BTS SIO 2nd year with the aim of becoming a computer developer. 
+                            I did an internship last year at ArianeGroup. 
+                            During this internship, I was able to put my lessons into practice in the realization of a project. 
+                            This therefore comforted me in my professional project.</p>
+                    </div>
+        
+        
+                    <div class="Logo-2"><img src="assets/img/formation.png"></div>
+                    <div class="Why-this-formation"><h3>Why this training ?</h3></div>
+                    <div class="Text-2">
+                        <p>I chose this course because I found the openings very interesting and completely related to my professional project. 
+                            In addition, the image that this training sends back to recruiters is very good.</p>
+                    </div>
+        
+        
+                    <div class="Logo-3"><img src="assets/img/rocket.png"></div>
+                    <div class="My-future"><h3>My future</h3></div>
+                    <div class="Text-3">
+                        <p>As mentioned in my presentation, I would like to become a software and application developer. 
+                            This area has always fascinated me. 
+                            I intend to continue my studies with a master's degree in computer science or an engineering school.</p>
+                    </div>
+                </div>
+        
+        
+                <div class="lastProjects">
+        
+                    <h3>Latest projects</h3>
+        
+                    <div class="container">
+        
+                        <!--Box 12-->
+                        <div class="box">
+        
+                            <!--Img-->
+                            <div class="box-img">
+                                <img src="assets/img/Projects/tktCerza/1493235373large_react_apps_A-01-360x240.webp">
+                            </div>
+        
+                            <!--Date x Theme-->
+                            <div class="box-text">
+                                <span>On 2023-06-09 - AP</span>
+                                <a href="Projects/ApTktCerza/apTktCerza.html" class="box-title">AP TKT Cerza - React</a>
+                                <p>This AP was carried out in a group of three and had the objective of designing and developing a web application for the management of the park "Zoo de Cerza" (internal) for park employees.</p>
+                                <a href="Projects/ApTktCerza/apTktCerza.html">Read more</a>
+                            </div>
+                            
+                        </div>
+        
+        
+                        <!--Box 11-->
+                        <div class="box">
+        
+                            <!--Img-->
+                            <div class="box-img">
+                                <img src="assets/img/Projects/gsbGesAmm/hero-stock-1024x578-1-360x240.png">
+                            </div>
+        
+                            <!--Date x Theme-->
+                            <div class="box-text">
+                                <span>On 2023-03-05 - AP</span>
+                                <a href="Projects/ApGsbGesAmm/gsbGesAmm.html" class="box-title">AP - GSB gesAMM</a>
+                                <p>This AP was made in a group of three in the context of a pharmaceutical laboratory named Galaxy Swiss Bourdin. In this project, I had to create an application in C# to allow management and monitoring of the marketing of a drug.
+                                    We had to connect our C# application with SQL Server, in which the application data was stored, as well as stored procedures.</p>
+                                <a href="Projects/ApGsbGesAmm/gsbGesAmm.html">Read more</a>
+                            </div>
+                            
+                        </div>
+        
+        
+                        <!--Box 10-->
+                        <div class="box">
+        
+                            <!--Img-->
+                            <div class="box-img">
+                                <img src="assets/img/Projects/referencement/e-commerce-seo-750x501-1.jpg">
+                            </div>
+        
+                            <!--Date x Theme-->
+                            <div class="box-text">
+                                <span>On 2023-01-05 - AP</span>
+                                <a href="Projects/ApReferencement/apReferencement.html" class="box-title">AP - SEO</a>
+                                <p>This PA was done individually, and was intended to write SEO documentation and practice by referencing my previous portfolio.</p>
+                                <a href="Projects/ApReferencement/apReferencement.html">Read more</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+        
+                    <a href="Projects/listProjects.html" class="btn">
+                        <div class="arrow"></div>
+                        See all projects
+                    </a>
+                </div>
+        
+        
+        
+                <div class="lastVeilles">
+        
+                    <h3>Latest technology monitoring</h3>
+        
+                    <div class="container">
+        
+                        <!--Box 7-->
+                        <div class="box">
+        
+                            <!--Img-->
+                            <div class="box-img">
+                                <img src="assets/img/Veilles/Veille7/xiaomivsapple1.jpg">
+                            </div>
+        
+                            <!--Date x Theme-->
+                            <div class="box-text">
+                                <span>On 2023-06-08 - Virtual Reality</span>
+                                <a href="TechnologyMonitoring/veille7/veille7.html" class="box-title">Augmented Reality - Xiaomi VS Apple</a>
+                                <p>Today we're going to explore the latest advancements in Virtual Reality (VR) and Augmented Reality (AR). We will particularly focus on innovations from Xiaomi and Apple. Get ready to discover the new possibilities offered by these two visionary companies.</p>
+                                <a href="TechnologyMonitoring/veille7/veille7.html">Read more</a>
+                            </div>
+                            
+                        </div>
+        
+        
+                        <!--Box 6-->
+                        <div class="box">
+        
+                            <!--Img-->
+                            <div class="box-img">
+                                <img src="assets/img/Veilles/Veille6/angularLogo.png">
+                            </div>
+        
+                            <!--Date x Theme-->
+                            <div class="box-text">
+                                <span>On 2023-03-09 - Programmation</span>
+                                <a href="TechnologyMonitoring/veille6/veille6.html" class="box-title">Framework Angular</a>
+                                <p>Angular is an open source framework based on TypeScript (a strict syntactic superset of JavaScript transcompiled to JavaScript). This framework facilitates the creation of web applications, especially single-page web applications. These are accessible via a single web page, which makes the user experience smoother and avoids the loading of new pages for each action. The framework is based on the MVC-type architecture, thus making it possible to separate the data, the visual aspect and the actions for a better management of responsibilities. This architecture is well known for its high maintainability and its ability to improve collaborative work.</p>
+                                <a href="TechnologyMonitoring/veille6/veille6.html">Read more</a>
+                            </div>
+                            
+                        </div>
+        
+        
+                        <!--Box 5-->
+                        <div class="box">
+        
+                            <!--Img-->
+                            <div class="box-img">
+                                <img src="assets/img/Veilles/Veille5/MouseVRheadset1.png">
+                            </div>
+        
+                            <!--Date x Theme-->
+                            <div class="box-text">
+                                <span>On 2022-11-20 - Virtual Reality</span>
+                                <a href="TechnologyMonitoring/veille5/veille5.html" class="box-title">MouseVRheadset</a>
+                                <p>Developers from Schaffer-Nishimura Lab have created a miniature VR system, the MouseVRheadset. This small virtual reality headset was designed to study the behavior of mice in a variety of virtual environments. Indeed, the subjects are immersed in interactive and non-interactive visual scenes.</p>
+                                <a href="TechnologyMonitoring/veille5/veille5.html">Read more</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+        
+                    <a href="TechnologyMonitoring/techList.html" class="btn">
+                        <div class="arrow"></div>
+                        See all technology monitoring
+                    </a>
+                    
+                </div>
+        
+                  
+                <footer>
+                    <div class="contact">
+                        <h1>Contact me :</h1>
+        
+                        <h3>My work place</h3>
+                        <p>54 Rue de Marzelles, 27200 Vernon, France</p>
+                        <br>
+        
+                        <h3>My contact details</h3>
+                        <p>hugo.poquet@icloud.com</p>
+                        <p>(+33) 7 85 94 35 58</p>
+                        <br>
+        
+                        <h3>You can also find me on</h3>
+                        <a href="https://github.com/Roswell1208"><img src="assets/img/GitHub-Logo.png"></a>
+                        <img src="assets/img/discord-logo-1-1-2048x2048.png" title="Roswell_1208#1668">
+                        <a href="https://www.linkedin.com/in/hugo-poquet-30a8a4259/"><img src="assets/img/Logo Linkedin.png"></a>
+                    </div>
+                </footer>
             </div>
-        </footer>
+        </div>
     </body>
 </html>
