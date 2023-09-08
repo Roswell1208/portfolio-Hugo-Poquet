@@ -79,3 +79,15 @@
 .content a {
     text-decoration: none;
 }
+
+
+.back a {
+    margin-left: 15%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.back a:hover {
+    color: rgb(255, 0, 0);
+    transition: all ease 0.3s;
+}
