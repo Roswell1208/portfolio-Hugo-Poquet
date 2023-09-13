@@ -44,26 +44,35 @@
         </header>
 
 
-        <div class="homeTitle">
-            <h1>Welcome to my Portfolio</h1>
-
-            <div class="container">
-                <h3><span class="auto-type"></span></h3>
+        <div class="headPage">
+            <div class="homeTitle">
+                <h1>Welcome to my Portfolio</h1>
+    
+                <div class="container">
+                    <h3><span class="auto-type"></span></h3>
+                </div>
+        
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        
+                <script>
+                    var typed = new Typed('.auto-type', {
+                        strings: ['I\'m Hugo Poquet, a french student in IT development C:',
+                        'I like to code and to learn new things',
+                        'Hope you\'ll enjoy my portfolio !'],
+                        typeSpeed: 50,
+                        backSpeed: 25,
+                        loop: true
+                    });
+                </script>
+    
             </div>
-    
-            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    
-            <script>
-                var typed = new Typed('.auto-type', {
-                    strings: ['I\'m Hugo Poquet, a french student in IT development C:',
-                    'I like to code and to learn new things',
-                    'Hope you\'ll enjoy my portfolio !'],
-                    typeSpeed: 50,
-                    backSpeed: 25,
-                    loop: true
-                });
-            </script>
+            
+            <div class="scrollDownArrow">
+                <div class="downArrow"><img src="assets/img/downArrow.png"></div>
+            </div>
+            
         </div>
+
 
         <div class="presentation">
             <div class="Logo-1"><img src="assets/img/profile.png"></div>

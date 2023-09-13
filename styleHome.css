@@ -1,10 +1,46 @@
-.homeTitle {
-    text-align: center;
+.headPage {
+    height: 500px;
     margin-top: 12.5em;
     margin-bottom: 10em;
+}
+
+.homeTitle {
+    text-align: center;
     color: white;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
+}
+
+
+.scrollDownArrow {
+    position: absolute; /* Utilisez "fixed" pour que la flèche reste fixe à l'écran */
+    left: 50%;
+    margin-top: 25px;
+    transform: translateX(-50%);
+}
+
+.downArrow {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    animation: bounce 2s infinite;
+}
+
+.downArrow img {
+    width: 64px;
+    height: 64px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(15px);
+    }
+    60% {
+        transform: translateY(10px);
+    }
 }
 
 
