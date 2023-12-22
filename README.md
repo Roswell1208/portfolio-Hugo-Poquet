@@ -9,6 +9,7 @@ I am Hugo Poquet, a french student in IT Development.
 - Work Experience
 - Certifications
 - Technology Monitoring
+
 [Explore my portfolio](https://roswell1208.github.io/portfolio-Hugo-Poquet/)
 
 ## Authors
